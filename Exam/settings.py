@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-!@b_vv9g$z7++8t*df1g*$oefklz4^ir=@76@zy7^zlz!=3_pj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://examination-zdui.onrender.com"]
+ALLOWED_HOSTS = ["examination-zdui.onrender.com"]
 
 # Application definition
 
