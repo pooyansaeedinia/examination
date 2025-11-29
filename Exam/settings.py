@@ -24,7 +24,10 @@ SECRET_KEY = 'django-insecure-!@b_vv9g$z7++8t*df1g*$oefklz4^ir=@76@zy7^zlz!=3_pj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["examination-zdui.onrender.com"]
+ALLOWED_HOSTS = [
+    "examination-zdui.onrender.com",
+    "127.0.0.1",
+                 ]
 
 # Application definition
 
@@ -132,5 +135,7 @@ SPECTACULAR_SETTINGS = {
     "SERVE_INCLUDE_SCHEMA": False,
 }
 CORS_ALLOWED_ORIGINS = [
-    "https://react-quiz-bay-xi.vercel.app/",
+    "https://react-quiz-bay-xi.vercel.app",
+    "https://localhost:3000",
+    "http://localhost:8000",
 ]
